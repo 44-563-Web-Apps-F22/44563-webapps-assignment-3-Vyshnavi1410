@@ -40,33 +40,51 @@
     <p>This section tells about the places that I am intrested in visiting. This table includes the name of the city and
         the location to be visited and also has the column containing estimated time of the visiting the location and
         time spending there.</p>
-        <table border="1px">
-            <tr>
-                <th>City Name</th>
-                <th>Location to Visit</th>
-                <th>Estimated Time</th>
-            </tr>
-            <tr>
-                <td>St.Louis</td>
-                <td>Forest Park</td>
-                <td>6 Hrs</td>
-            </tr>
-            <tr>
-                <td>Albany</td>
-                <td>Six Flags</td>
-                <td>1 Day</td>
-            </tr>
-            <tr>
-                <td>New York</td>
-                <td>Rochestor</td>
-                <td>9 Hrs</td>
-            </tr>
-            <tr>
-                <td>New York</td>
-                <td>Niagara Falls</td>
-                <td>10 Hrs</td>
-            </tr>
-        </table>
+    <table border="1px">
+        <tr>
+            <th>City Name</th>
+            <th>Location to Visit</th>
+            <th>Estimated Time</th>
+        </tr>
+        <tr>
+            <td>St.Louis</td>
+            <td>Forest Park</td>
+            <td>6 Hrs</td>
+        </tr>
+        <tr>
+            <td>Albany</td>
+            <td>Six Flags</td>
+            <td>1 Day</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>Rochestor</td>
+            <td>9 Hrs</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>Niagara Falls</td>
+            <td>10 Hrs</td>
+        </tr>
+    </table>
+
+    <hr>
+    <h1>Code Display</h1>
+    <blockquote cite="https://stackoverflow.com/questions/3646036/preloading-images-with-javascript"> BlockQuote of
+        Image PreLoader</blockquote>
+    <a href="https://stackoverflow.com/questions/3646036/preloading-images-with-javascript">Quick link to the Stack Overflow Source</a><br>
+    <a href="https://css-tricks.com/snippets/jquery/image-preloader/">Quick link to the source</a>
+    <pre>
+        $.preloadImages = function() {
+            for (var i = 0; i < arguments.length; i++) {
+                $("<img />").attr("src", arguments[i]);
+            }
+        }
+              
+        $.preloadImages("hoverimage1.jpg","hoverimage2.jpg");
+    </pre>
+    
+
 </body>
 
 </html>
